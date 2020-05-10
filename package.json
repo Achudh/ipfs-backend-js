@@ -1,0 +1,30 @@
+{
+  "name": "ipfs_node_backend",
+  "version": "1.0.0",
+  "description": "IPFS backend with nodejs",
+  "main": "ipfs-backend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Achudh/ipfs-backend-js.git"
+  },
+  "keywords": [
+    "IPFS",
+    "Nodejs",
+    "Blockchain",
+    "libp2p"
+  ],
+  "author": "Achudh Krishna A G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Achudh/ipfs-backend-js/issues"
+  },
+  "homepage": "https://github.com/Achudh/ipfs-backend-js#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "ipfs-api": "^26.1.2"
+  }
+}
