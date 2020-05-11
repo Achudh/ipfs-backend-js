@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "builds": [{ "src": "ipfs-backend.js", "use": "@now/node-server" }],
+    "routes": [
+        {
+          "src": "/addfile",
+          "dest": "/ipfs-backend.js",
+          "methods": ["POST"]
+        },
+        {
+          "src": "/getfile",
+          "dest": "/ipfs-backend.js",
+          "methods": ["GET"]
+        }
+      ]
+}
